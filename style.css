@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("font/CartograpfCF/CartographCF-RegularItalic.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+p {
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "MyFont", sans-serif;
+}
+
+.glass-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 40px 5px rgb(22, 85, 81);
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
